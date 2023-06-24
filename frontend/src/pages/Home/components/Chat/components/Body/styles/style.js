@@ -1,0 +1,1 @@
+export const customChatBodyClass='overflow-y-scroll flex flex-col w-full flex-1 scrollbar-hide gap-[5px]'

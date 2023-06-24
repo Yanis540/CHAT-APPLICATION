@@ -1,0 +1,6 @@
+/.env
+/node_modules
+/credentials.json
+/token.json
+/index.js
+/google__gmail

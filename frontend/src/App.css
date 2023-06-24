@@ -1,0 +1,43 @@
+
+
+@charset "UTF-8";
+:root{
+    --dot-color:white;
+}
+
+
+.dot-typing-left,.dot-typing-center,.dot-typing-right {
+    position: relative;
+    transform: translateY(0);
+
+    animation: dotTyping 800ms infinite linear;
+    /* animation-delay: 100ms; */
+}
+.dot-typing-center{
+    animation-delay: 100ms;
+    
+}
+.dot-typing-right{
+    animation-delay: 300ms;
+    
+}
+  
+@keyframes dotTyping {
+    0% {
+        transform: translateY(0);
+    }
+    15%{
+        transform: translateY(-45%);
+    }
+    50%{
+        transform: translateY(-70%);
+        
+    }
+    75%{
+        transform: translateY(-20%);
+        
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
